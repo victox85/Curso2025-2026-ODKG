@@ -34,11 +34,6 @@ for s, p, o in g:
 """**Task 6.0: Create new prefixes for "ontology" and "person" as shown in slide 14 of the Slidedeck 01a.RDF(s)-SPARQL shown in class.**"""
 
 # this task is validated in the next step
-from rdflib import Graph, Namespace, Literal, XSD
-from rdflib.namespace import RDF, RDFS
-
-
-
 pl = Namespace("http://oeg.fi.upm.es/def/people#")
 per = Namespace("http://oeg.fi.upm.es/resource/person/")
 
