@@ -79,8 +79,6 @@ r.validate_task_06_01(g)
 # TO DO
 
 
-
-
 # --- PROPIEDAD hasName ---
 g.add((pl.hasName, RDF.type, RDF.Property))
 g.add((pl.hasName, RDFS.label, Literal("hasName", datatype=XSD.string)))
